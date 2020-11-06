@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,10 +21,6 @@ ul {
   padding-left: 0;
 }
 
-li {
-  margin-right: 0.625rem; /* 10/16 para saber o valor em rem */
-}
-
 .navbar {
   position: fixed; /* deixa a caixa da nav fixa no topo */
   display: grid; /* trabalha com grid */
@@ -35,7 +31,7 @@ li {
   
   width: 100vw;
   padding: 0 1rem;
-
+  
   background-color: #000;
   color: #FFF;
 }
@@ -44,11 +40,33 @@ li {
   justify-self: end;
 }
 
+.navbar__links li {
+  font-size: .875rem; /* 14/16 (16 da root) (14 do tamanho que eu quero) = 0.875rem */
+  margin-right: 3rem; /* 48/16 para saber o valor em rem = 3rem */
+  text-transform: capitalize;
+}
+
 .navbar__links a {
   color: #FFF;
   text-decoration: none;  
 }
 
 .navbar__links a:hover {
+  color: var(--color-primary);
+}
+
+.logo-studion {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.logo-studion__subtitle {
+  font-size: .875rem;
+  font-weight: 400;
+  text-align: right;
+
+}
+
+.copy--primary {
   color: var(--color-primary);
 }
