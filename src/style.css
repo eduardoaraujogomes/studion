@@ -75,3 +75,9 @@ ul {
 .copy--primary {
   color: var(--color-primary);
 }
+
+#slider {
+  height: calc(100vh - 7.75rem); /* calc faz o calculo que voce quiser */
+  background-color: #000;
+  color: #FFF;
+}
