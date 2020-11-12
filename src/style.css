@@ -25,6 +25,7 @@ ul {
 
 .navbar {
   position: fixed; /* deixa a caixa da nav fixa no topo */
+  z-index: 1; /* deixa a navbar a cima do position relative */
   display: grid; /* trabalha com grid */
   grid-template-columns: 1fr 9fr; /* cria um template de 1 fracao (10% da tela)e 9 fracoes (90% da tela) */
   align-items: center; /* vai centralizar os elementos no centro */
@@ -78,12 +79,23 @@ ul {
 }
 
 #slider {
-  height: calc(100vh - 7.75rem); /* calc faz o calculo que voce quiser */
-  padding: var(--default-padding);
   background-color: #000;
-  background-image: url('./images/banner.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   color: #FFF;
+}
+
+.slide {
+  position: relative; /* nao deixa os elementos filhos fugirem dele*/
+  height: calc(100vh - 7.75rem); /* calc faz o calculo que voce quiser */  
+}
+
+.slide__background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.slide__copy {
+  position: absolute;
+  top: 0;
+  left: 50vw;
 }
