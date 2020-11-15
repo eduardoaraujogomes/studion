@@ -117,7 +117,8 @@ ul {
   display: block;
 }
 .btn {
-  padding: 1.25rem 2.5rem;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
   border: .125rem solid #FFF;
   border-radius: 5rem;
   color: var(--color-primary);
@@ -125,4 +126,13 @@ ul {
   font-size: .9375rem;
   font-weight: 700;
   text-transform: uppercase;
+  transition: 0.3s all ease;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: #FFF;
 }
