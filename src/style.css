@@ -96,6 +96,33 @@ ul {
 }
 .slide__copy {
   position: absolute;
-  top: 0;
+  top: 6.25rem;
   left: 50vw;
+}
+
+.slide__copy h6 {
+  font-size: .9375rem;   /* 15/16 */
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem; /* espacamento entra as letras (kerning) */
+}
+
+.slide__copy h2 {
+  font-size: 6.25rem;
+  text-transform: uppercase;
+  line-height: 6.25rem;
+}
+
+.slide__copy h2 span {
+  display: block;
+}
+.btn {
+  padding: 1.25rem 2.5rem;
+  border: .125rem solid #FFF;
+  border-radius: 5rem;
+  color: var(--color-primary);
+  background: unset; /* reseta tudo e deixa sem estilo nenhum */
+  font-size: .9375rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
