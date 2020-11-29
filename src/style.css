@@ -31,6 +31,8 @@ footer {
   margin: 0 auto;
 }
 
+/* Stylizing horizontal menu */
+
 ul {
   display: flex;
   list-style: none;
@@ -219,4 +221,25 @@ ul {
 .btn--institutional:hover {
   color: var(--color-copy);
   background: unset;
+  box-shadow: 0 1rem 1rem #0006; /* x,y, blur, cor (cria uma sombra)*/
+}
+
+.quote {
+  background-image: url(./images/parallax.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  min-height: 80vh;
+}
+
+.quote__copy {
+  background-color: #FFF;
+
 }
