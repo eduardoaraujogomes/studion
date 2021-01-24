@@ -5,7 +5,7 @@
 
 .slide {
   position: relative; /* nao deixa os elementos filhos fugirem dele*/
-  height: calc(95vh - 7.75rem); /* calc faz o calculo que voce quiser */
+  height: 90vh; /* calc faz o calculo que voce quiser */
 }
 
 .slide__background-image {
@@ -97,7 +97,7 @@
 }
 
 .quote {
-  background-image: url(./images/parallax.jpg);
+  background-image: url(../images/parallax.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

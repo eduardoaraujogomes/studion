@@ -1,10 +1,9 @@
 .navbar {
-  position: fixed; /* deixa a caixa da nav fixa no topo */
+  position: absolute; /* deixa a caixa da nav fixa no topo */
   z-index: 1; /* deixa a navbar a cima do position relative */
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000;
   color: #fff;
 }
 
