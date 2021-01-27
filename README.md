@@ -1,5 +1,7 @@
 # Studion
 
+![alt text](https://github.com/eduardoaraujogomes/studion/blob/main/home.psd?raw=true)
+
 This is the first project of the fronte-end developer course for the Image School class of 2020.
 
 ## How to work with the repository / como trabalhar com o repositório.
