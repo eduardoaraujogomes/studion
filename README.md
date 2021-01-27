@@ -1,6 +1,6 @@
 # Studion
 
-![home page](https://imgur.com/tT632uZ)
+[home page](https://imgur.com/tT632uZ)
 
 This is the first project of the fronte-end developer course for the Image School class of 2020.
 
