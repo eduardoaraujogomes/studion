@@ -1,6 +1,6 @@
 # Studion
 
-<img src="https://imgur.com/tT632uZ" width="250">
+<img src="https://imgur.com/JwVv4GY" width="250">
 
 This is the first project of the fronte-end developer course for the Image School class of 2020.
 
