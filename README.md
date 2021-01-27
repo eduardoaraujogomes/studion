@@ -1,6 +1,6 @@
 # Studion
 
-![alt text](https://github.com/eduardoaraujogomes/studion/blob/main/home.psd?raw=true)
+![home page](https://github.com/eduardoaraujogomes/studion/main/home.psd?raw=true)
 
 This is the first project of the fronte-end developer course for the Image School class of 2020.
 
